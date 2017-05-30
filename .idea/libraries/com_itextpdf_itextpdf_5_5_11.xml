@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.itextpdf:itextpdf:5.5.11" type="repository">
+    <properties maven-id="com.itextpdf:itextpdf:5.5.11" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/itextpdf-5.5.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

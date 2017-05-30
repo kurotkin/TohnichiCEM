@@ -1,0 +1,16 @@
+# Настройки #
+
+# Путь до базы данных Access
+dbUrl: C:/ProgramData/STAHLWILLE/Sensomaster4/Database.accdb
+
+# Имя Таблицы
+tableName: TohnichiCEM
+
+# COM порт подключения моментного  ключа
+portName: COM3
+
+# Папка с автоматическими отчетами в pdf
+prUrl: C:/Tohnichi
+
+# Размер посылки в байтах
+bSize: 33
