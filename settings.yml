@@ -7,10 +7,10 @@ dbUrl: C:/ProgramData/STAHLWILLE/Sensomaster4/Database.accdb
 tableName: TohnichiCEM
 
 # COM порт подключения моментного  ключа
-portName: COM3
+portName: COM4
 
 # Папка с автоматическими отчетами в pdf
 prUrl: C:/Tohnichi
 
 # Размер посылки в байтах
-bSize: 33
+bSize: 31

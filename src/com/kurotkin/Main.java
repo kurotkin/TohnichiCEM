@@ -71,10 +71,10 @@ public class Main  {
                             Date dat = Parser.getDate(points, i);
                             for (Row row : cursor.newIterable().addMatchPattern("Код", i)) {
                                 row.put("val", val);
-                                row.put("datetime", val);
+                                row.put("datetime", dat);
                                 table.updateRow(row);
                             }
-                            System.out.println(Integer.toString(i) + " | " + Double.toString(val));
+                            System.out.println(Integer.toString(i) + " | " + Double.toString(val) + " | " + dateFormat.format(dat));
                             logMas = logMas + "{id:" + Integer.toString(i) + ",value:" + Double.toString(val) +
                                 ",time:" + dateFormat.format(dat) + "},";
                         }
